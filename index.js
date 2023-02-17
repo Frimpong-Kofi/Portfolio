@@ -18,7 +18,7 @@ var typed = new Typed(".type", {
 $(".owl-carousel").owlCarousel({
   loop: true,
   autoplay: true,
-  speed: 900,
+  speed: 500,
   margin: 10,
   items: 2,
   responsiveClass: true,
@@ -37,5 +37,5 @@ $(".owl-carousel").owlCarousel({
 
 // PRELOADER FADEOUT
 $(window).on("load", function () {
-  $(".preloader").delay("700").fadeOut("slow");
+  $(".preloader").delay("300").fadeOut("slow");
 });
